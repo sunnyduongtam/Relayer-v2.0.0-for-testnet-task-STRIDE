@@ -32,7 +32,7 @@ Using the example of installing and running Relayer-v2.0.0
 # Download go-v2 relayer
 ```
      git clone https://github.com/cosmos/relayer.git
-     cd relayer && git checkout v2.0.0
+     cd relayer && git checkout v2.0.0-rc4
      make install
  
 ```
@@ -41,15 +41,15 @@ Using the example of installing and running Relayer-v2.0.0
      cd $HOME
      mkdir -p $HOME/.relayer/config
      
-     MEMO=Your memo #archebald#2945
+     MEMO=Your memo #sunnyduong#3509
      
      KEYSTRIDE=Name of your key #stride
      KEYGAIA=Name of your key
      
-     IPSTRIDE=IP your STRIDE node #164.68.125.90
+     IPSTRIDE=IP your STRIDE node #127.0.0.1
      PORTSTRIDE=Port RPC your STRIDE node #10002 or 26657 if the nodes are on different servers
 
-     IPGAIA=IP you GAIA node #164.68.125.90
+     IPGAIA=IP you GAIA node #127.0.0.1
      PORTGAIA=RPC port of your GAIA node #10004 or 26657 if the nodes are on different servers
 ```
 
